@@ -7,7 +7,6 @@ export * from './baContentTop';
 export * from './baCard';
 export * from './baAmChart';
 export * from './baChartistChart';
-export * from './baD3Chart';
 export * from './baBackTop';
 export * from './baFullCalendar';
 export * from './baPictureUploader';

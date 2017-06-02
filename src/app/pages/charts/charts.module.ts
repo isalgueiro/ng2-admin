@@ -8,8 +8,6 @@ import { Charts } from './charts.component';
 import { ChartistJs } from './components/chartistJs/chartistJs.component';
 import { ChartistJsService } from './components/chartistJs/chartistJs.service';
 import { AppTranslationModule } from '../../app.translation.module';
-import { D3Js } from './components/D3Js/D3Js.component';
-import { D3JsService} from './components/D3Js/D3Js.service';
 
 @NgModule({
   imports: [
@@ -21,12 +19,10 @@ import { D3JsService} from './components/D3Js/D3Js.service';
   ],
   declarations: [
     Charts,
-    ChartistJs,
-    D3Js
+    ChartistJs
   ],
   providers: [
-    ChartistJsService,
-    D3JsService
+    ChartistJsService
   ]
 })
 export class ChartsModule {}

@@ -1,1 +1,0 @@
-export * from './D3Js.component';

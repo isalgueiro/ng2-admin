@@ -77,14 +77,6 @@ export const PAGES_MENU = [
                 title: 'general.menu.chartist_js',
               }
             }
-          },
-          {
-            path: 'd3-js',
-            data: {
-              menu: {
-                title: 'D3.Js',
-              }
-            }
           }
         ]
       },
